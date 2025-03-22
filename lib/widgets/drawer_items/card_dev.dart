@@ -30,7 +30,7 @@ class CardDev extends StatelessWidget {
                 left: screenSize.width * 0.26,
                 top: screenSize.height * 0.01,
                 child: Text(
-                  'Muhammad Usman',
+                  'Muhammad Afnan',
                   style: Theme.of(context).textTheme.titleLarge!.copyWith(
                         color: Theme.of(context).colorScheme.primary,
                         fontWeight: FontWeight.bold,

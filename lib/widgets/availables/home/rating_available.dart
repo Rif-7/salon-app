@@ -206,46 +206,6 @@ class RatingAvailable extends StatelessWidget {
                         ],
                       ),
                     );
-                    // ListTile(
-                    //   leading: CircleAvatar(
-                    //     // radius: 50,
-                    //     backgroundImage: AssetImage(imageLink[index]),
-                    //   ),
-                    //   title: Column(
-                    //     crossAxisAlignment: CrossAxisAlignment.start,
-                    //     children: [
-                    //       Text('Usman'),
-                    //       Text(
-                    //         '14-08-24',
-                    //         style: TextStyle(color: Colors.grey),
-                    //       ),
-                    //     ],
-                    //   ),
-                    //   subtitle: Column(
-                    //     crossAxisAlignment: CrossAxisAlignment.start,
-                    //     children: [
-                    //       RatingBar.builder(
-                    //         initialRating: 4,
-                    //         minRating: 1,
-                    //         direction: Axis.horizontal,
-                    //         allowHalfRating: true,
-                    //         itemCount: 5,
-                    //         itemSize: 20,
-                    //         itemPadding: EdgeInsets.symmetric(horizontal: 2.0),
-                    //         itemBuilder: (context, _) => Icon(
-                    //           Icons.star,
-                    //           color: Colors.amber,
-                    //         ),
-                    //         onRatingUpdate: (rating) {
-                    //           // You can handle rating update if needed
-                    //         },
-                    //       ),
-                    //       SizedBox(height: 4),
-                    //       Text(
-                    //           "Great experience! Highly recommend this app. The service was excellent, and the staff was very friendly and professional. Will definitely use it again!"),
-                    //     ],
-                    //   ),
-                    // );
                   },
                 ),
               ),

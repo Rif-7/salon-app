@@ -13,7 +13,7 @@ final dummyDrawer = {
     'Bookings',
     'Reviews',
     'FAQs',
-    'Location',
+    'Hairmorph AI',
     'About',
     'Developer',
   ],
@@ -50,7 +50,7 @@ final dummySocials = [
     'assets/icons/social/github.png',
     'assets/icons/social/instagram.png',
   ], [
-    'https://github.com/musmanflutter',
-    'https://www.instagram.com/usman_flutter/?utm_source=qr&igsh=Z3R0Z2pmdnUxZ2pm',
+    'https://github.com/rif-7',
+    'https://www.instagram.com/fahadfanu09/',
   ])
 ];

@@ -82,19 +82,6 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
         'rating': ratingGot,
         'photo': userPhoto ?? photoUrl,
       });
-      // final storageRef = FirebaseStorage.instance
-      //     .ref()
-      //     .child('review_images')
-      //     .child('${doc.id}.jpg');
-      //     await storageRef.putFile(userPhoto);
-      // final feedbackData = {
-      //   'rating': rating,
-      //   'feedback': feedback,
-      //   'createAt': Timestamp.now(),
-      //   'name': 'usman',
-      //   'profilePicUrl': 'assets/images/logo.png',
-      // };
-      // await FirebaseFirestore.instance.collection('Feedback').add(feedbackData);
       // Reset the fields after submission
       setState(() {
         ratingGot = 0.0;
@@ -230,8 +217,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                               .titleMedium!
                               .copyWith(
                                 fontWeight: FontWeight.bold,
-                                color:
-                                    Theme.of(context).colorScheme.onSurface,
+                                color: Theme.of(context).colorScheme.onSurface,
                               ),
                         ),
                         SizedBox(
@@ -289,8 +275,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                               .titleMedium!
                               .copyWith(
                                 fontWeight: FontWeight.bold,
-                                color:
-                                    Theme.of(context).colorScheme.onSurface,
+                                color: Theme.of(context).colorScheme.onSurface,
                               ),
                         ),
                         SizedBox(

@@ -46,7 +46,7 @@ class DeveloperScreen extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  'Skilled Flutter developer crafting visually stunning apps with expertise in Flutter. Proficient in Firebase for basic backend functionalities. Dedicated to creating seamless user experiences and staying updated with the latest trends. Let\'s bring your app ideas to life!',
+                  'Hello, test about content',
                   style: Theme.of(context).textTheme.titleMedium!.copyWith(
                         color: Theme.of(context).colorScheme.onSurface,
                       ),
@@ -67,8 +67,7 @@ class DeveloperScreen extends StatelessWidget {
                       foregroundColor: Theme.of(context).colorScheme.onPrimary,
                     ),
                     onPressed: () {
-                      launchWebs(
-                          'https://www.linkedin.com/in/muhammad-usman-flutter-developer/');
+                      launchWebs('https://www.linkedin.com/in/rifan-na/');
                     },
                     child: Text(
                       'Visit Portfolio',
@@ -94,7 +93,7 @@ class DeveloperScreen extends StatelessWidget {
                 ),
           ),
           const Contacts(
-            phoneNumber: '03119843011',
+            phoneNumber: '99999999999',
           ),
           SizedBox(
             height:

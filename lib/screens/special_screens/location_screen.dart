@@ -12,13 +12,13 @@ class LocationScreen extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'Adress',
-          style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                color: Theme.of(context).colorScheme.primary,
-                fontWeight: FontWeight.bold,
-              ),
-        ),
+        // Text(
+        //   'Adress',
+        //   style: Theme.of(context).textTheme.titleLarge!.copyWith(
+        //         color: Theme.of(context).colorScheme.primary,
+        //         fontWeight: FontWeight.bold,
+        //       ),
+        // ),
         Container(
           margin: EdgeInsets.symmetric(
             horizontal: screenSize.width * 0.015,
@@ -28,19 +28,19 @@ class LocationScreen extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Icon(
-                Icons.location_on,
-                size: (screenSize.height - MediaQuery.of(context).padding.top) *
-                    0.064,
-              ),
-              Expanded(
-                child: Text(
-                  'Plot A4/7, Moinabad, M.M Alam Road,Near Malir Cantt Check Post No 2, Near Zaidi Manzil Bus Stop, Model Colony, Karachi.',
-                  style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                        color: Theme.of(context).colorScheme.onSurface,
-                      ),
-                ),
-              )
+              // Icon(
+              //   Icons.location_on,
+              //   size: (screenSize.height - MediaQuery.of(context).padding.top) *
+              //       0.064,
+              // ),
+              // Expanded(
+              //   child: Text(
+              //     'Plot A4/7, Moinabad, M.M Alam Road,Near Malir Cantt Check Post No 2, Near Zaidi Manzil Bus Stop, Model Colony, Karachi.',
+              //     style: Theme.of(context).textTheme.titleMedium!.copyWith(
+              //           color: Theme.of(context).colorScheme.onSurface,
+              //         ),
+              //   ),
+              // )
             ],
           ),
         ),
@@ -48,13 +48,13 @@ class LocationScreen extends StatelessWidget {
           height:
               (screenSize.height - MediaQuery.of(context).padding.top) * 0.02,
         ),
-        Text(
-          'Map',
-          style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                color: Theme.of(context).colorScheme.primary,
-                fontWeight: FontWeight.bold,
-              ),
-        ),
+        // Text(
+        //   'Map',
+        //   style: Theme.of(context).textTheme.titleLarge!.copyWith(
+        //         color: Theme.of(context).colorScheme.primary,
+        //         fontWeight: FontWeight.bold,
+        //       ),
+        // ),
         const MapShown(),
       ],
     );

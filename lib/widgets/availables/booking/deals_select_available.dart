@@ -67,7 +67,7 @@ class _DealsSelectAvailableState extends State<DealsSelectAvailable> {
                     Positioned(
                       top: screenSize.height * 0.035,
                       child: Text(
-                        'PKR: ${deal.dealPrice.toString()}',
+                        'INR: ${deal.dealPrice.toString()}',
                         style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                               color: Theme.of(context)
                                   .colorScheme

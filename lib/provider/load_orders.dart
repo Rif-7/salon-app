@@ -6,13 +6,15 @@ import 'package:sohna_salon_app/models/order_class.dart';
 final orderProvider = StreamProvider<List<OrderClass>>((ref) {
   final userId = FirebaseAuth.instance.currentUser!.uid;
   try {
-    return FirebaseFirestore.instance
+    print("helooo\n");
+    final res = FirebaseFirestore.instance
         .collection('Orders')
         .where('userId', isEqualTo: userId) // Filter orders by userId
-        .where('total', isGreaterThan: 0)
-        .orderBy('createAt', descending: true)
+        // .where('total', isGreaterThan: 0)
+        // .orderBy('createAt', descending: true)
         .snapshots()
         .map((snapshot) => snapshot.docs.map((doc) {
+              print("Total Orders: ${snapshot.docs.length}");
               List<String> services =
                   []; // Initialize an empty list for services
               List<String> servicesPrice = [];
@@ -43,9 +45,10 @@ final orderProvider = StreamProvider<List<OrderClass>>((ref) {
                   total: doc['total'],
                   id: doc.id);
             }).toList());
+    return res;
   } catch (error) {
     // Handle error
-
+    print("error");
     throw Error();
   }
 });

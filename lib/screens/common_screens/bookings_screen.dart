@@ -128,18 +128,7 @@ class _BookingScreenState extends ConsumerState<BookingScreen> {
             : servicePriceFallbackText,
         'total': _totalPrice
       });
-      // final storageRef = FirebaseStorage.instance
-      //     .ref()
-      //     .child('review_images')
-      //     .child('${doc.id}.jpg');
-      //     await storageRef.putFile(userPhoto);
-      // final feedbackData = {
-      //   'rating': rating,
-      //   'feedback': feedback,
-      //   'createAt': Timestamp.now(),
-      //   'name': 'usman',
-      //   'profilePicUrl': 'assets/images/logo.png',
-      // };
+
       // await FirebaseFirestore.instance.collection('Feedback').add(feedbackData);
       // Reset the fields after submission
       final formattedDate = DateFormat('EEE, dd/MM/y').format(_selectedDate);

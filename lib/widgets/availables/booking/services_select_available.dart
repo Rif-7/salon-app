@@ -70,7 +70,7 @@ class _ServicesSelectAvailableState extends State<ServicesSelectAvailable> {
                     Positioned(
                       top: screenSize.height * 0.035,
                       child: Text(
-                        'PKR: ${service.servicePrice.toString()}',
+                        'INR: ${service.servicePrice.toString()}',
                         style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                               color: Theme.of(context)
                                   .colorScheme
